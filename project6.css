@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;   
+    background-image: url("https://media.istockphoto.com/id/117178590/photo/new-york-skyline.jpg?s=612x612&w=0&k=20&c=BMI-NX_WrnAaZn1ojoXITOTAw0jBhlswT3WL0mpJXdo=");
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: red;
+    width:100%;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 10%;
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    gap: 50px;
+}
+li a:hover{
+    text-decoration: underline;
+    font-family: cursive;
+    text-shadow: 3px 3px 5px rgb(246, 246, 246);
+    transition: 0.5s;
+}
+li a{
+    color: aliceblue;
+}
+button{
+    width: 10%;
+    padding:1vh 1vw;
+    background-color: purple;
+    border-radius: 30vh;
+    margin-bottom: 5px;
+}
+.butt:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#logo{
+    filter: invert(1);
+    transform: scale(1.5);
+}
+.main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+    line-height: 60px;
+    text-align: center;
+}
+.bodyButt{
+    color: aliceblue;
+    font-weight: bolder;
+    width: 10%;
+    padding:1vh 1vw;
+    background-color: purple;
+    margin-bottom: 5px;
+    
+}
+.bodyButt:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media( 400px <= width <= 900px){
+    body{
+        background-color: red;
+        color: aqua;
+    }
+}
